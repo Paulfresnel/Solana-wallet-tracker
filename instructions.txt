@@ -1,0 +1,19 @@
+I want to create a project that will help me track the solana wallet activity of specific wallets input by the user.
+
+This could be done in 2 different ways:
+1. Create a web app that will allow the user to input the wallet address and then will show the activity of that wallet. Activate email notifications for the user for new transactions made by the tracked wallet.
+2. Create a telegram bot that will allow the user to input the wallet address and then will show the activity of that wallet. 
+The bot will send the user a message with the latest shitcoin transactions to his wallet (swap/buy/sell). The bot should also be able to notify the user as soon as a new transaction is made to his wallet.
+
+Make recommendations as to which method is better to implement and why. Then proceed to help me start with the implementation of this project.
+
+Make it as simple and UX friendly as possible. Use the latest technologies and best practices. Use the 
+Solana blockchain explorer API to get the transaction data.
+
+I have no coding experience apart with some basic JS from a bootcamp 2 years ago, so make sure to guide me properly through the steps.
+
+We want our webApp or telegrambot to be able to run 24/7 and notify the user as soon as a new transaction is made to his wallet.
+
+
+For starter we will want to track this wallet: Aw1rq9VSY5SJisufnfmDJ6jAwJNx768EXypU15k8iVoW
+
