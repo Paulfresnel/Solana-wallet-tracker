@@ -216,13 +216,13 @@ async def format_bitquery_transfer(transfer):
     
     token_name = transfer['currency'].get('name') or await get_token_name(token_address)
     
-    message = f"🚀 [Transaction](https://solscan.io/tx/{signature})\n"
-    message += f"🕰️ {timestamp.strftime('%d %B %Y at %I:%M %p')}\n"
-    message += f"💱 Received: {locale.format_string('%.0f', amount, grouping=True)} {symbol}\n"
+    message = f"🔗 [Transaction](https://solscan.io/tx/{signature})\n"
+    message += f"⏰ {timestamp.strftime('%d %B %Y at %I:%M %p')}\n"
+    message += f"📥 Received: {locale.format_string('%.0f', amount, grouping=True)} {symbol}\n"
     message += f"🏷️ Ticker: {symbol}\n"
     message += f"💎 Token Name: {token_name}\n"
     message += f"📍 Token Address: `{token_address}`\n"
-    message += f"🔄 [Swap on Jupiter](https://jup.ag/swap/SOL-{token_address})\n"
+    message += f"🌈🚀 [Swap on Jupiter](https://jup.ag/swap/SOL-{token_address})\n"
     
     return message
 
